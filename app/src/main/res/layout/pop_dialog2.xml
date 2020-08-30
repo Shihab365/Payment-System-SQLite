@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:background="#272d51"
+            android:padding="10dp"
+            android:gravity="center"
+    >
+        <EditText
+                android:id="@+id/pay_amount_id"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Amount"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:textColorHint="#000000"
+                android:background="@drawable/mobile_num_shape"
+                android:inputType="numberDecimal"
+                android:paddingLeft="15dp"
+        />
+        <Button
+                android:id="@+id/pay_confirm_button_id"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="CONFIRM"
+                android:textColor="#ffffff"
+                android:textStyle="bold|normal"
+                android:textSize="20sp"
+                android:background="#ff0051"
+        />
+    </LinearLayout>
+
+</LinearLayout>

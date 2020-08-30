@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:background="#310050"
+            android:padding="3dp"
+    >
+        <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+        >
+            <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/subject_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="subject"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:textStyle="bold|normal"
+                    android:paddingLeft="12dp"
+            />
+            <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/money_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="money"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold|normal"
+            />
+        </LinearLayout>
+        <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+        >
+            <TextView
+                    android:layout_weight="0.7"
+                    android:id="@+id/cdate_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="09 sep,2019"
+                    android:textColor="#ff8000"
+                    android:textSize="15sp"
+                    android:textStyle="bold|normal"
+                    android:paddingLeft="12dp"
+                    android:gravity="right|center"
+            />
+            <TextView
+                    android:layout_weight="1.3"
+                    android:id="@+id/ctime_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="10:47 AM"
+                    android:textColor="#ff8000"
+                    android:textSize="15sp"
+                    android:textStyle="bold|normal"
+                    android:gravity="right|center"
+                    android:paddingRight="7dp"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
